@@ -1,7 +1,7 @@
 from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
-@register("setu_getter", "Koaksmazl", "简单色图插件", "1.0.0")
+@register("setu_getter", "RookieCube", "简单色图插件", "1.0.0")
 class Setu(Star):
     def __init__(self, context: Context):
         super().__init__(context)
